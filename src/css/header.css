@@ -1,0 +1,25 @@
+:root {
+  --header-bg: hsla(1, 96%, 2%, 0.4);
+}
+
+.nav-header {
+  background-color: var(--header-bg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px 0 0;
+}
+
+.left-ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-ul {
+  display: flex;
+  justify-content: flex-end;
+}
